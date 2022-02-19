@@ -84,7 +84,6 @@ do{
             }while(cont==1)
            
             do{//verifica a idade
-                //entrada data informada
                 let idade_informada = prompt('Informe a idade: ');
 
                 if(idade_informada < 18) {
@@ -121,10 +120,6 @@ do{
                     }while(verificador==1)
                     
                     contador = 0;
-                   /* console.log(evento_participante[0]);
-                    console.log(idade_participante[0]);
-                    console.log(nome_participante[0]);
-                    console.log(tipo_participante[0]);*/
                 }
 
             }while(contador==1)
